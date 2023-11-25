@@ -1,0 +1,98 @@
+/* Медиазапрос для мобильных устройств */
+@media only screen and (max-width: 480px) {
+    /* Стили для мобильных устройств */
+    /* Настройки ширины и отступов основных элементов */
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    /* Настройки шрифтов и размеров текста */
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    /* Полная ширина для изображений */
+    img {
+        width: 100%;
+    }
+
+    /* Стили для меню */
+    .header {
+        padding: 10px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu-toggle:hover {
+        cursor: pointer;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    .menu-list.active {
+        display: block;
+    }
+}
+
+/* Медиазапрос для планшетов */
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+    /* Стили для планшетов */
+    /* Настройки ширины и отступов основных элементов */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* Настройки шрифтов и размеров текста */
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    /* Полная ширина для изображений */
+    img {
+        width: 100%;
+    }
+
+    /* Стили для меню */
+    .header {
+        padding: 20px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .menu-list {
+        display: block;
+    }
+}
