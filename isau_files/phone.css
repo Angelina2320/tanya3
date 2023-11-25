@@ -1,54 +1,92 @@
-#vt_sau_header {
-    width: 100%;
+#vtemimageshow1 {display:none !important}
+
+#vt_main_top_wapper, #vt_content_wapper{
+    width:100%;
+    margin:0;
+    padding:0;
 }
 
-#vt_menu_wapper {
-    display: none;
+#vt_footer_menu_copyright div.vt_container{ 
+    clear:both; 
+    padding:0px 10px;
 }
 
-#vt_main_header {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+#vt_main_com .moduletable_boxnews, 
+#vt_main_com .vt_home_blog,
+#vt_nav_right .vt_moduletable,
+#vt_nav_left .vt_moduletable,
+#vt_main_com .vt_view_items, #vt_full{ 
+    background:#fff5cf;
+    border-right:3px solid #474c4d;
+    border-bottom:3px solid #474c4d;
 }
 
-.vt_home_blog {
-    width: 100%;
-    max-width: 430px;
+#vt_full .vt_blog, 
+#vt_main_com .vt_blog{ 
+    padding:10px;
 }
 
-#vt_news_show {
-    display: none;
+#vt_main_com .inset1 .moduletable_boxnews{
+    margin:20px 10px 0px 0px; 
+    padding:5px;
 }
 
-#vt_drawer {
-    width: 100%;
-    align-items: center;
+#vt_main_com .inset2 .moduletable_boxnews{
+    margin:20px 0px 0px 10px; 
+    padding:5px;
 }
 
-#vt_main_top_wapper, #vt_content_wapper {
-    width: 100%;
-}
-
-.vt_blog_wapper {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#vt_main_com .vt_home_blog{
+    margin:0px 0px 0px 0px; 
+    padding:5px;
 }
 
 #vt_inset_wapper {
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
+    margin:0px 0px 0px 0px;
 }
 
-.vt_container {
-    width: 100%;
+#vt_content_wapper{ 
+    background:#FFF; 
+    position:relative;
+    border-right:3px solid #474c4d;
+    border-bottom:3px solid #474c4d;
 }
 
-#vt_footer_box {
-    display: none;
+#vt_wapper{ 
+    padding:0px 10px;
+}
+
+#vt_menu_wapper{
+    height:86px;
+    padding:0px 5px 0 5px;
+    margin-bottom:20px;
+    background:url(../images/vt_bg_menu.png) left top repeat-x;
+}
+
+#vt_topbar{
+    height:36px;
+    background:#fdbd81;
+}
+
+#vt_topbar{
+    padding:0px 10px;
+}   
+
+#vt_sau_header{
+    background:url(./head.png) center;
+    height:204px;
+}
+
+#vt_footer_box{
+    width:100%;
+    height:25px;
+    background:#f7dfac;
+    border-bottom:1px solid #CCC;
+}
+
+#vt_main_header{
+    margin:0px 0px 20px 0px;
+    display:block;
+    clear:both;
+    display:flex;
 }
