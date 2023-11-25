@@ -18,17 +18,86 @@
   
   <style type="text/css">
 	
-    <!--
-#dm_tabs_1 ul.dm_menu_1 { width:auto; margin:0; padding:0; list-style:none; }
-#dm_tabs_1 ul.dm_menu_1 li.dm_menu_item_1 { display: inline; margin:0 0 0 10px; padding:0; float:left; border:0px solid #CCCCCC; border-bottom:none; background-color:#FFFFFF; background-image:none; }
-#dm_tabs_1 ul.dm_menu_1 li.dm_menu_item_1 a { font:bold 12px Arial; float:left; border:none; color:#dddddd; padding:15px 20px 15px 20px; text-decoration:none; }
-#dm_tabs_1 ul.dm_menu_1 li.dm_menu_item_1 a.dm_selected { position:relative;top:0px;background-color:#FFFFFF;color:#fdbf84; }
-#dm_tabs_1 ul.dm_menu_1 li.dm_menu_item_1 a:hover {background-color:#FFFFFF;color:#fdbf84; }
-#dm_container_1 {border:0px solid #CCCCCC;width:auto;height:auto;background-color:none;padding:5px;overflow:hidden; }
-#dm_container_1 .dm_tabcontent {display:none; }
-@media print { #dm_container_1 .dm_tabcontent {display:block !important; } }
-#vtemimageshow1{width:618px;height:250px;border:5px solid #DDDDDD;}#vtemimageshow1 .info_slide .image_number{background:#FFFFFF !important;}#vtemimageshow1 .info_slide .image_number_select{background:#CC0000 !important;}#vtemimageshow1 .container_skitter img{width:618px;height:250px;}
-    -->
+    @media only screen and (max-width: 980px) {
+      body {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+
+      /* Убрать изображение */
+      #vtemimageshow1 {
+        display: none !important;
+      }
+
+      /* Изменить ширину */
+      #vt_main_top_wapper,
+      #vt_content_wapper {
+        width: 100% !important;
+      }
+
+      /* Убрать отступы */
+      #vt_main_top_wapper,
+      #vt_content_wapper {
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+
+      /* Убрать футеровский блок */
+      #vt_footer_box {
+        display: none;
+      }
+
+      /* Убрать ограничения ширины */
+      .width100,
+      .widthmain100,
+      .width50,
+      .width33,
+      .cols3,
+      .width25,
+      .cols4,
+      .width28,
+      .width72 {
+        width: 100% !important;
+        padding: 0 !important;
+      }
+
+      /* Убрать логотип */
+      /*#vt_logo {
+        display: none;
+      }*/
+
+      /* Изменить размеры блоков */
+      #vt_main_menu {
+        width: 100% !important;
+      }
+      #vt_news_show {
+        min-width: auto !important;
+      }
+      #vt_drawer {
+        width: 100% !important;
+      }
+
+      /* Сползание вниз */
+      #vt_top {
+        width: 100% !important;
+        float: none !important;
+      }
+
+      /* Изменить ширины меню и футера */
+      #vt_menu_footer {
+        width: 100% !important;
+      }
+
+      /* Убрать минимальную высоту */
+      #vt_header_wrapper,
+      #vt_top,
+      #vt_footer_wrapper,
+      #vt_main_contaner,
+      #vt_header_wrapper {
+        min-height: auto !important;
+      }
+    }
   </style>
   <script async="" src="./isau_files/analytics.js.Без названия"></script><script type="text/javascript" async="" src="./isau_files/watch.js.Без названия"></script><script type="text/javascript" src="./isau_files/mootools.js.Без названия" style="color: rgb(0, 0, 0);"></script>
   <script type="text/javascript" src="./isau_files/caption.js.Без названия"></script>
