@@ -1,0 +1,52 @@
+#vt_sau_header{
+    width: 480px;
+}
+
+#vt_menu_wapper{
+    display: none;
+}
+#vt_main_header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.vt_home_blog{
+    width:430px;
+}
+
+#vt_news_show{
+    display: none;
+}
+
+#vt_drawer{
+    width: 100%;
+    align-items: center;
+}
+
+#vt_main_top_wapper, #vt_content_wapper{
+    width: 100%;
+}
+
+.vt_blog_wapper{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#vt_inset_wapper{
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.vt_container{
+    width: 100%;
+}
+
+#vt_footer_box{
+    display: none;
+}

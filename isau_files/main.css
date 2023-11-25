@@ -1,0 +1,31 @@
+#vt_breadcrumb_top_wapper{
+    float: none !important;
+    display: flex;
+}
+#vt_pathway{
+    margin-right: auto;
+}
+
+.vt_blog_wapper{
+    float: none !important;
+    display: flex;
+}
+
+.contentpaneopen_boxnews{
+    float: none !important;
+}
+
+#vt_inset_wapper{
+    float: none !important;
+    display: flex;
+}
+
+.widthinset50 {
+    float: none !important;
+}
+
+.vt_module_inside{
+    float: none !important;
+    display: flex;
+    flex-direction: column;
+}
